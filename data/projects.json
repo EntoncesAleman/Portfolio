@@ -1,0 +1,124 @@
+[
+  {
+    "id": "proj-01",
+    "slug": "horsey",
+    "title": "Horsey",
+    "category": "Cortometraje",
+    "year": 2019,
+    "director": "William Bentley",
+    "role": "Protagonista y Producción",
+    "duration": "10 min",
+    "format": "Super 8",
+    "shortDescription": "Un cortometraje en Super 8 sobre una madre, un hijo y la incomunicación.",
+    "description": "Rodado en la calidez y nostálgica textura del Super 8, este cortometraje de 10 minutos dirigido por William Bentley profundiza en la compleja y desgastante relación entre una madre y su hijo, marcada por la exigencia y la incomunicación. Con la actuación y producción de Mercedes Wyler, la obra combina una estética analógica intimista con un relato cargado de emoción y vulnerabilidad.",
+    "thumbnail": {
+      "src": "/images/projects/horsey/portada.jpg",
+      "alt": "Fotograma en blanco y negro de Horsey: un niño sobre un caballo de juguete",
+      "aspectRatio": 1.3675
+    },
+    "heroImage": {
+      "src": "/images/projects/horsey/portada.jpg",
+      "alt": "Fotograma en blanco y negro de Horsey: un niño sobre un caballo de juguete",
+      "aspectRatio": 1.3675
+    },
+    "video": {
+      "provider": "vimeo",
+      "id": "325888597",
+      "url": "https://vimeo.com/325888597"
+    },
+    "galleryImages": [],
+    "order": 1,
+    "featured": true
+  },
+  {
+    "id": "proj-02",
+    "slug": "regalito",
+    "title": "Regalito",
+    "category": "Cortometraje",
+    "year": 2019,
+    "director": "William Bentley",
+    "role": "Protagonista y Producción",
+    "duration": "10 min",
+    "format": "Super 8",
+    "shortDescription": "Un cortometraje en Super 8 sobre una madre migrante y la distancia.",
+    "description": "Desde el aislamiento del extranjero, una madre migrante sostiene una incansable batalla para mantenerse presente en la vida de su hijo distante, en un relato íntimo rodado en clásico formato analógico.",
+    "thumbnail": {
+      "src": "/images/projects/regalito/portada.jpg",
+      "alt": "Fotograma de apertura de Regalito, título en amarillo sobre fondo negro en Super 8",
+      "aspectRatio": 1.7778
+    },
+    "heroImage": {
+      "src": "/images/projects/regalito/portada.jpg",
+      "alt": "Fotograma de apertura de Regalito, título en amarillo sobre fondo negro en Super 8",
+      "aspectRatio": 1.7778
+    },
+    "video": {
+      "provider": "vimeo",
+      "id": "325888836",
+      "url": "https://vimeo.com/325888836"
+    },
+    "galleryImages": [],
+    "order": 2,
+    "featured": true
+  },
+  {
+    "id": "proj-03",
+    "slug": "nuuva-creme-brulee",
+    "title": "Nuuva Recetas: Crème Brûlée",
+    "category": "Contenido de Marca",
+    "year": 2015,
+    "role": "Dirección",
+    "client": "Nuuva Dulce de Leche",
+    "duration": "2:48 min",
+    "shortDescription": "Campaña de recetas audiovisuales para posicionar el dulce de leche en Estados Unidos.",
+    "description": "Desarrollo de piezas audiovisuales gastronómicas diseñadas para posicionar la autenticidad y versatilidad del dulce de leche en el mercado estadounidense. A través de una estética apetitosa y cercana, esta serie de recetas combina la tradición del sabor latino con preparaciones accesibles para el público angloparlante, destacando el producto como un ingrediente clave tanto en la repostería clásica como en giros culinarios contemporáneos.",
+    "thumbnail": {
+      "src": "/images/projects/nuuva-creme-brulee/portada.jpg",
+      "alt": "Logo de Nuuva en pantalla negra, apertura del video de la campaña de recetas",
+      "aspectRatio": 1.7778
+    },
+    "heroImage": {
+      "src": "/images/projects/nuuva-creme-brulee/portada.jpg",
+      "alt": "Logo de Nuuva en pantalla negra, apertura del video de la campaña de recetas",
+      "aspectRatio": 1.7778
+    },
+    "video": {
+      "provider": "vimeo",
+      "id": "135378656",
+      "url": "https://vimeo.com/135378656"
+    },
+    "galleryImages": [],
+    "order": 3,
+    "featured": true
+  },
+  {
+    "id": "proj-04",
+    "slug": "nuuva-crepes",
+    "title": "Nuuva Recetas: Crepes",
+    "category": "Contenido de Marca",
+    "year": 2014,
+    "role": "Dirección",
+    "client": "Nuuva Dulce de Leche",
+    "duration": "3:08 min",
+    "shortDescription": "Campaña de recetas audiovisuales para posicionar el dulce de leche en Estados Unidos.",
+    "description": "Desarrollo de piezas audiovisuales gastronómicas diseñadas para posicionar la autenticidad y versatilidad del dulce de leche en el mercado estadounidense. A través de una estética apetitosa y cercana, esta serie de recetas combina la tradición del sabor latino con preparaciones accesibles para el público angloparlante, destacando el producto como un ingrediente clave tanto en la repostería clásica como en giros culinarios contemporáneos.",
+    "thumbnail": {
+      "src": "/images/projects/nuuva-crepes/portada.jpg",
+      "alt": "Preparación de crepes con dulce de leche en una cocina, campaña Nuuva",
+      "aspectRatio": 1.7778
+    },
+    "heroImage": {
+      "src": "/images/projects/nuuva-crepes/portada.jpg",
+      "alt": "Preparación de crepes con dulce de leche en una cocina, campaña Nuuva",
+      "aspectRatio": 1.7778
+    },
+    "video": {
+      "provider": "vimeo",
+      "id": "135299690",
+      "url": "https://vimeo.com/135299690"
+    },
+    "galleryImages": [],
+    "order": 4,
+    "featured": true
+  }
+]

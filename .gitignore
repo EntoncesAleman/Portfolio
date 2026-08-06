@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+*.bak
+.vscode
+.claude
+
+# Datos personales / no publicos
+CV Mercedes Wyler_2026.pdf
+Horsey Portada.png
