@@ -33,7 +33,7 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
           href="/"
           className="relative text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--text)]"
         >
-          Trabajos
+          ← Volver
         </Link>
 
         <h1 className="relative mt-6 max-w-3xl text-4xl font-medium tracking-tight text-[var(--text)] md:text-6xl">
