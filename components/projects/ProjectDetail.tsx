@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
 import { DecorativeBackground } from "@/components/projects/DecorativeBackground";
+import { RelatedVideos } from "@/components/projects/RelatedVideos";
 import { VimeoEmbed } from "@/components/projects/VimeoEmbed";
 import { YouTubeEmbed } from "@/components/projects/YouTubeEmbed";
 import type { Project } from "@/types/project";
@@ -95,6 +96,10 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
             {project.video.provider === "youtube" ? "Ver en YouTube" : "Ver en Vimeo"}
           </Link>
         </div>
+      ) : null}
+
+      {project.relatedVideos && project.relatedVideos.length > 0 ? (
+        <RelatedVideos items={project.relatedVideos} />
       ) : null}
 
       {project.galleryImages.length > 0 ? (

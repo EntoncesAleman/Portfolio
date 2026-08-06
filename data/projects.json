@@ -246,5 +246,138 @@
     "galleryImages": [],
     "order": 6,
     "featured": true
+  },
+  {
+    "id": "proj-07",
+    "slug": "otro-planeta",
+    "title": "Otro Planeta",
+    "category": "Streaming",
+    "year": 2024,
+    "role": "Productora Ejecutiva y Directora",
+    "client": "Greenpeace Andino",
+    "shortDescription": "Programa de streaming de Greenpeace Andino, con los formatos Ahora lo sabes y Experto responde.",
+    "description": "Otro Planeta es el programa de streaming de Greenpeace Andino. Estuve a cargo de la creación y dirección integral del programa: diseño del formato, producción y estrategia editorial, coordinación de equipos técnicos, creativos y de comunicación, gestión de invitados y proveedores, y liderazgo de un equipo de 12 profesionales. Dentro del programa nacieron dos formatos fijos: Ahora lo sabes, curiosidades científicas con humor, y Experto responde, entrevistas con especialistas invitados.",
+    "thumbnail": {
+      "src": "/images/projects/otro-planeta/portada.jpg",
+      "alt": "Miniatura del episodio Los hipopótamos explotan, de Ahora lo sabes",
+      "aspectRatio": 1.7778
+    },
+    "heroImage": {
+      "src": "/images/projects/otro-planeta/portada.jpg",
+      "alt": "Miniatura del episodio Los hipopótamos explotan, de Ahora lo sabes",
+      "aspectRatio": 1.7778
+    },
+    "video": {
+      "provider": "youtube",
+      "id": "lh8ls3nyJX0",
+      "url": "https://www.youtube.com/watch?v=lh8ls3nyJX0"
+    },
+    "relatedVideos": [
+      {
+        "title": "¿El Everest está lleno de heces? - Ahora lo sabes",
+        "url": "https://www.youtube.com/watch?v=VhVyO4-DbpE",
+        "thumbnail": {
+          "src": "/images/projects/otro-planeta/ep-everest.jpg",
+          "alt": "Miniatura del episodio sobre el Everest, Ahora lo sabes",
+          "aspectRatio": 1.7778
+        }
+      },
+      {
+        "title": "¿Hasta dónde puede llegar un microplástico? - Ahora lo sabes",
+        "url": "https://www.youtube.com/watch?v=tszTFa-uH-A",
+        "thumbnail": {
+          "src": "/images/projects/otro-planeta/ep-microplasticos.jpg",
+          "alt": "Miniatura del episodio sobre microplásticos, Ahora lo sabes",
+          "aspectRatio": 1.7778
+        }
+      },
+      {
+        "title": "¿A cuánto puede sobrevivir una cucaracha? - Ahora lo sabes",
+        "url": "https://www.youtube.com/watch?v=sJdFk0Is7_A",
+        "thumbnail": {
+          "src": "/images/projects/otro-planeta/ep-cucaracha.jpg",
+          "alt": "Miniatura del episodio sobre cucarachas, Ahora lo sabes",
+          "aspectRatio": 1.7778
+        }
+      },
+      {
+        "title": "¿Qué es el ultra fast fashion? - Ahora lo sabes",
+        "url": "https://www.youtube.com/watch?v=uIKMbrEUmIE",
+        "thumbnail": {
+          "src": "/images/projects/otro-planeta/ep-fastfashion.jpg",
+          "alt": "Miniatura del episodio sobre ultra fast fashion, Ahora lo sabes",
+          "aspectRatio": 1.7778
+        }
+      },
+      {
+        "title": "Experto en sueño responde (Diego Golombek)",
+        "url": "https://www.youtube.com/watch?v=ZGyDalAblNM",
+        "thumbnail": {
+          "src": "/images/projects/otro-planeta/ep-golombek.jpg",
+          "alt": "Miniatura de la entrevista a Diego Golombek, Experto responde",
+          "aspectRatio": 1.7778
+        }
+      },
+      {
+        "title": "Enrique Viale contesta dudas de nuestros seguidores",
+        "url": "https://www.youtube.com/watch?v=u7wlhdIpDLU",
+        "thumbnail": {
+          "src": "/images/projects/otro-planeta/ep-viale.jpg",
+          "alt": "Miniatura de la entrevista a Enrique Viale, Experto responde",
+          "aspectRatio": 1.7778
+        }
+      }
+    ],
+    "galleryImages": [],
+    "order": 7,
+    "featured": true
+  },
+  {
+    "id": "proj-08",
+    "slug": "radio-tulum",
+    "title": "Radio Tulum",
+    "category": "Radio & Contenido Musical",
+    "year": 2016,
+    "role": "Productora y Coordinadora de Talentos",
+    "shortDescription": "Producción de contenidos y transmisiones en vivo para la radio de Tulum, México.",
+    "description": "Producción de contenidos, coordinación de invitados, organización de transmisiones en vivo y logística de producción para Radio Tulum, incluyendo sesiones en vivo de música y DJ sets.",
+    "thumbnail": {
+      "src": "/images/projects/radio-tulum/portada.jpg",
+      "alt": "Sesión en vivo de Anni M Fables para Radio Tulum LAB",
+      "aspectRatio": 1.7778
+    },
+    "heroImage": {
+      "src": "/images/projects/radio-tulum/portada.jpg",
+      "alt": "Sesión en vivo de Anni M Fables para Radio Tulum LAB",
+      "aspectRatio": 1.7778
+    },
+    "video": {
+      "provider": "youtube",
+      "id": "u5TbPgmEQn4",
+      "url": "https://www.youtube.com/watch?v=u5TbPgmEQn4"
+    },
+    "relatedVideos": [
+      {
+        "title": "Saturna DJs",
+        "url": "https://www.youtube.com/watch?v=X0DA4hfaCxM",
+        "thumbnail": {
+          "src": "/images/projects/radio-tulum/ep-saturna-djs.jpg",
+          "alt": "Set de Saturna DJs para Radio Tulum",
+          "aspectRatio": 1.7778
+        }
+      },
+      {
+        "title": "Reptilia, en vivo",
+        "url": "https://www.youtube.com/watch?v=hf5fJoJyJiQ",
+        "thumbnail": {
+          "src": "/images/projects/radio-tulum/ep-reptilia.jpg",
+          "alt": "Banda Reptilia en vivo para Radio Tulum",
+          "aspectRatio": 1.7778
+        }
+      }
+    ],
+    "galleryImages": [],
+    "order": 8,
+    "featured": true
   }
 ]
