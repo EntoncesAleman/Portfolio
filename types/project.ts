@@ -19,17 +19,6 @@ export interface VideoEmbed {
   url: string;
 }
 
-export interface RelatedVideo {
-  title: string;
-  /** URL externa (YouTube/Vimeo), abre en pestaña nueva */
-  url: string;
-  thumbnail: {
-    src: string;
-    alt: string;
-    aspectRatio: number;
-  };
-}
-
 export interface Project {
   id: string;
   slug: string;
@@ -60,8 +49,6 @@ export interface Project {
     aspectRatio: number;
   };
   video?: VideoEmbed;
-  /** Otras piezas del mismo cuerpo de trabajo, enlazan afuera en vez de embeberse */
-  relatedVideos?: RelatedVideo[];
   galleryImages: GalleryItem[];
   /** Controla el orden en home; menor = primero */
   order: number;
