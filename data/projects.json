@@ -133,13 +133,13 @@
     "description": "Feik Ñus es una serie de 8 capítulos de 10 minutos con asesoría del equipo Anti Fake News de Conicet Argentina. Gerardo el ñu, Pacha la mapacha y Amapola la yaguareté desbaratan noticias falsas. Cualquier similitud con la realidad, no es mera coincidencia. El formato está pensado como una herramienta para niños, niñas y adolescentes para analizar las noticias. Estreno 2024 en canal Escuela Plus de DIRECTV.",
     "thumbnail": {
       "src": "/images/projects/feik-nus/portada.jpg",
-      "alt": "Amapola la yaguareté, personaje de la serie Feik Ñus",
-      "aspectRatio": 1.7778
+      "alt": "Gerardo el ñu y Amapola la yaguareté en la mesa de guion de Feik Ñus",
+      "aspectRatio": 1.6
     },
     "heroImage": {
       "src": "/images/projects/feik-nus/portada.jpg",
-      "alt": "Amapola la yaguareté, personaje de la serie Feik Ñus",
-      "aspectRatio": 1.7778
+      "alt": "Gerardo el ñu y Amapola la yaguareté en la mesa de guion de Feik Ñus",
+      "aspectRatio": 1.6
     },
     "video": {
       "provider": "vimeo",
@@ -147,7 +147,74 @@
       "hash": "f96e9e7f01",
       "url": "https://vimeo.com/852416552/f96e9e7f01"
     },
-    "galleryImages": [],
+    "galleryImages": [
+      {
+        "src": "/images/projects/feik-nus/gallery-01.jpg",
+        "type": "image",
+        "alt": "Pacha la mapache, personaje de Feik Ñus",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-02.jpg",
+        "type": "image",
+        "alt": "Gerardo, Pacha y Amapola presentando el episodio Frenemos la desinformación",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-03.jpg",
+        "type": "image",
+        "alt": "Gerardo el ñu con una claqueta de rodaje",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-04.jpg",
+        "type": "image",
+        "alt": "Personaje narrador de Feik Ñus frente a un cielo estrellado",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-05.jpg",
+        "type": "image",
+        "alt": "Pantalla de episodio de Feik Ñus con iconos de suscripción",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-06.jpg",
+        "type": "image",
+        "alt": "Parodia de noticiero con el personaje Don Braulio en una heladería",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-07.jpg",
+        "type": "image",
+        "alt": "Amapola y Pacha detrás de escena, en la mesa de guion",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-08.jpg",
+        "type": "image",
+        "alt": "Gerardo el ñu jugando con un cucurucho de helado de juguete",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-09.jpg",
+        "type": "image",
+        "alt": "Parodia de noticiero Noti Creo sobre la destrucción de la Tierra, con los tres protagonistas",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-10.jpg",
+        "type": "image",
+        "alt": "Primer plano de Amapola la yaguareté frente al micrófono",
+        "aspectRatio": 1.6
+      },
+      {
+        "src": "/images/projects/feik-nus/gallery-11.jpg",
+        "type": "image",
+        "alt": "Los tres protagonistas de Feik Ñus detrás de escena, con el pizarrón de investigación",
+        "aspectRatio": 1.6
+      }
+    ],
     "order": 5,
     "featured": true
   }

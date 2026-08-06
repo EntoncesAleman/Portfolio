@@ -12,3 +12,7 @@ next-env.d.ts
 # Datos personales / no publicos
 CV Mercedes Wyler_2026.pdf
 Horsey Portada.png
+portada feik.jpeg
+
+# Originales sin procesar (ya optimizados en public/images/projects/)
+/f[0-9]*.png
