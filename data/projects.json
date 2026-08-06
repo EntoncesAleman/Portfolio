@@ -217,5 +217,34 @@
     ],
     "order": 5,
     "featured": true
+  },
+  {
+    "id": "proj-06",
+    "slug": "gatipedia",
+    "title": "Gatipedia",
+    "category": "Serie Infantil",
+    "year": 2023,
+    "role": "Producción, Investigación y Archivo",
+    "client": "Escuela Plus, DIRECTV",
+    "shortDescription": "Serie infantil donde un gato explica, con humor y memes, cómo funciona el mundo.",
+    "description": "Evaristo es un gato sabelotodo que nos explica, con mucho humor y memes, cómo funcionan esas cosas que siempre hemos dado por hecho. ¿Alguna vez te has preguntado cómo llega la electricidad hasta tu casa o cómo es que puedes enviar un mensaje desde tu teléfono y le llega exactamente a quien vos quieras? Evaristo tiene esas y muchas más respuestas.",
+    "thumbnail": {
+      "src": "/images/projects/gatipedia/portada.jpg",
+      "alt": "Miniatura del episodio Servicio Meteorológico de Gatipedia, con el gato Evaristo",
+      "aspectRatio": 1.7778
+    },
+    "heroImage": {
+      "src": "/images/projects/gatipedia/portada.jpg",
+      "alt": "Miniatura del episodio Servicio Meteorológico de Gatipedia, con el gato Evaristo",
+      "aspectRatio": 1.7778
+    },
+    "video": {
+      "provider": "youtube",
+      "id": "Gom7TIAYGtU",
+      "url": "https://www.youtube.com/watch?v=Gom7TIAYGtU"
+    },
+    "galleryImages": [],
+    "order": 6,
+    "featured": true
   }
 ]

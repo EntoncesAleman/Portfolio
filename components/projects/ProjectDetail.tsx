@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
+import { DecorativeBackground } from "@/components/projects/DecorativeBackground";
 import { VimeoEmbed } from "@/components/projects/VimeoEmbed";
+import { YouTubeEmbed } from "@/components/projects/YouTubeEmbed";
 import type { Project } from "@/types/project";
 
 interface ProjectDetailProps {
@@ -12,6 +14,7 @@ interface ProjectDetailProps {
 
 export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
   const hasAdjacentNav = previous !== null || next !== null;
+  const isKidsShow = project.category === "Serie Infantil";
 
   const metaItems: { label: string; value: string }[] = [
     ...(project.client ? [{ label: "Cliente", value: project.client }] : []),
@@ -24,19 +27,20 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
 
   return (
     <article>
-      <header className="mx-auto max-w-[1400px] px-6 pb-12 pt-16 md:px-10 md:pb-16 md:pt-24">
+      <header className="relative mx-auto max-w-[1400px] px-6 pb-12 pt-16 md:px-10 md:pb-16 md:pt-24">
+        {isKidsShow ? <DecorativeBackground /> : null}
         <Link
           href="/"
-          className="text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--text)]"
+          className="relative text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--text)]"
         >
           Trabajos
         </Link>
 
-        <h1 className="mt-6 max-w-3xl text-4xl font-medium tracking-tight text-[var(--text)] md:text-6xl">
+        <h1 className="relative mt-6 max-w-3xl text-4xl font-medium tracking-tight text-[var(--text)] md:text-6xl">
           {project.title}
         </h1>
 
-        <dl className="mt-8 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-4 text-sm sm:grid-cols-3">
+        <dl className="relative mt-8 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-4 text-sm sm:grid-cols-3">
           {metaItems.map((item) => (
             <div key={item.label}>
               <dt className="text-[var(--text-muted)]">{item.label}</dt>
@@ -45,7 +49,7 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
           ))}
         </dl>
 
-        <p className="mt-8 max-w-[65ch] text-base leading-relaxed text-[var(--text-muted)]">
+        <p className="relative mt-8 max-w-[65ch] text-base leading-relaxed text-[var(--text-muted)]">
           {project.description}
         </p>
       </header>
@@ -67,12 +71,20 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
       {project.video ? (
         <div className="mx-auto max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
           <RevealOnScroll>
-            <VimeoEmbed
-              videoId={project.video.id}
-              hash={project.video.hash}
-              title={project.title}
-              aspectRatio={project.heroImage.aspectRatio}
-            />
+            {project.video.provider === "youtube" ? (
+              <YouTubeEmbed
+                videoId={project.video.id}
+                title={project.title}
+                aspectRatio={project.heroImage.aspectRatio}
+              />
+            ) : (
+              <VimeoEmbed
+                videoId={project.video.id}
+                hash={project.video.hash}
+                title={project.title}
+                aspectRatio={project.heroImage.aspectRatio}
+              />
+            )}
           </RevealOnScroll>
           <Link
             href={project.video.url}
@@ -80,7 +92,7 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
             rel="noreferrer"
             className="mt-4 inline-block text-sm text-[var(--text-muted)] underline decoration-[var(--border)] underline-offset-4 transition-colors hover:text-[var(--text)]"
           >
-            Ver en Vimeo
+            {project.video.provider === "youtube" ? "Ver en YouTube" : "Ver en Vimeo"}
           </Link>
         </div>
       ) : null}
