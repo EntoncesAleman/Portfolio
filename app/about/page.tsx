@@ -7,14 +7,14 @@ export const metadata: Metadata = {
 
 const experience = [
   {
+    company: "Zeratype - Criemos Libres",
+    role: "Productora Senior | Project Manager",
+    years: "2026",
+  },
+  {
     company: "Greenpeace Andino - Otro Planeta",
     role: "Productora Ejecutiva y Directora",
     years: "2023-2025",
-  },
-  {
-    company: "Zeratype - Criemos Libres",
-    role: "Productora Senior | Project Manager",
-    years: "2021-2023",
   },
   {
     company: "Poncho Sauer - ESCUELA+, DirecTV LA",
