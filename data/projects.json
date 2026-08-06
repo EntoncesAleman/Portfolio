@@ -120,5 +120,35 @@
     "galleryImages": [],
     "order": 4,
     "featured": true
+  },
+  {
+    "id": "proj-05",
+    "slug": "feik-nus",
+    "title": "Feik Ñus",
+    "category": "Serie Infantil",
+    "year": 2023,
+    "role": "Proceso creativo e investigación",
+    "client": "Escuela Plus, DIRECTV",
+    "shortDescription": "Serie infantil de 8 capítulos contra las noticias falsas, con asesoría de Conicet.",
+    "description": "Feik Ñus es una serie de 8 capítulos de 10 minutos con asesoría del equipo Anti Fake News de Conicet Argentina. Gerardo el ñu, Pacha la mapacha y Amapola la yaguareté desbaratan noticias falsas. Cualquier similitud con la realidad, no es mera coincidencia. El formato está pensado como una herramienta para niños, niñas y adolescentes para analizar las noticias. Estreno 2024 en canal Escuela Plus de DIRECTV.",
+    "thumbnail": {
+      "src": "/images/projects/feik-nus/portada.jpg",
+      "alt": "Amapola la yaguareté, personaje de la serie Feik Ñus",
+      "aspectRatio": 1.7778
+    },
+    "heroImage": {
+      "src": "/images/projects/feik-nus/portada.jpg",
+      "alt": "Amapola la yaguareté, personaje de la serie Feik Ñus",
+      "aspectRatio": 1.7778
+    },
+    "video": {
+      "provider": "vimeo",
+      "id": "852416552",
+      "hash": "f96e9e7f01",
+      "url": "https://vimeo.com/852416552/f96e9e7f01"
+    },
+    "galleryImages": [],
+    "order": 5,
+    "featured": true
   }
 ]

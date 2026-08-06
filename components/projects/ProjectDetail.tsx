@@ -69,6 +69,7 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
           <RevealOnScroll>
             <VimeoEmbed
               videoId={project.video.id}
+              hash={project.video.hash}
               title={project.title}
               aspectRatio={project.heroImage.aspectRatio}
             />

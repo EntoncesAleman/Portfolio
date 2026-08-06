@@ -13,6 +13,8 @@ export interface VideoEmbed {
   provider: "vimeo" | "youtube";
   /** ID del video en la plataforma, ej. "325888597" */
   id: string;
+  /** Hash de privacidad de Vimeo (videos no listados), ej. "f96e9e7f01" */
+  hash?: string;
   /** URL pública original, para el enlace "ver en Vimeo" */
   url: string;
 }
