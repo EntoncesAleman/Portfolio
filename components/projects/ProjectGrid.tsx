@@ -11,7 +11,7 @@ interface ProjectGridProps {
 
 export function ProjectGrid({ projects, leadingCard }: ProjectGridProps) {
   return (
-    <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
       {leadingCard ? <RevealOnScroll>{leadingCard}</RevealOnScroll> : null}
       {projects.map((project, index) => (
         <RevealOnScroll key={project.id} delay={(index % 2) * 0.08}>
