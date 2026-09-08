@@ -533,5 +533,33 @@
     "galleryImages": [],
     "order": 16,
     "featured": true
+  },
+  {
+    "id": "proj-17",
+    "slug": "locutora",
+    "title": "Locutora",
+    "category": "Locución",
+    "year": 2026,
+    "role": "Locución",
+    "duration": "1 video",
+    "shortDescription": "Demostración de locución para una pieza de audio y video local.",
+    "description": "Proyecto de locución con una grabación audiovisual local incorporada dentro del portfolio para mostrar la entrega de voz en primera persona.",
+    "thumbnail": {
+      "src": "/images/projects/locutora/portada.jpg",
+      "alt": "Portada del proyecto de locución",
+      "aspectRatio": 1.7778
+    },
+    "heroImage": {
+      "src": "/images/projects/locutora/portada.jpg",
+      "alt": "Portada del proyecto de locución",
+      "aspectRatio": 1.7778
+    },
+    "video": {
+      "provider": "local",
+      "url": "/videos/locutora/WhatsApp%20Video%202026-09-08%20at%2015.09.04.mp4"
+    },
+    "galleryImages": [],
+    "order": 17,
+    "featured": false
   }
 ]

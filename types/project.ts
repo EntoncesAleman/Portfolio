@@ -10,12 +10,12 @@ export interface GalleryItem {
 }
 
 export interface VideoEmbed {
-  provider: "vimeo" | "youtube";
+  provider: "vimeo" | "youtube" | "local";
   /** ID del video en la plataforma, ej. "325888597" */
-  id: string;
+  id?: string;
   /** Hash de privacidad de Vimeo (videos no listados), ej. "f96e9e7f01" */
   hash?: string;
-  /** URL pública original, para el enlace "ver en Vimeo" */
+  /** URL pública original, para el enlace "ver en Vimeo" o ruta local del video */
   url: string;
 }
 

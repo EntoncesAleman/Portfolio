@@ -73,27 +73,42 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
           <RevealOnScroll>
             {project.video.provider === "youtube" ? (
               <YouTubeEmbed
-                videoId={project.video.id}
+                videoId={project.video.id ?? ""}
                 title={project.title}
                 aspectRatio={project.heroImage.aspectRatio}
               />
-            ) : (
+            ) : project.video.provider === "vimeo" ? (
               <VimeoEmbed
-                videoId={project.video.id}
+                videoId={project.video.id ?? ""}
                 hash={project.video.hash}
                 title={project.title}
                 aspectRatio={project.heroImage.aspectRatio}
               />
+            ) : (
+              <div className="relative w-full overflow-hidden bg-black" style={{ aspectRatio: project.heroImage.aspectRatio }}>
+                <video
+                  src={project.video.url}
+                  title={project.title}
+                  className="absolute inset-0 h-full w-full object-cover"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  poster={project.heroImage.src}
+                />
+              </div>
             )}
           </RevealOnScroll>
-          <Link
-            href={project.video.url}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-4 inline-block text-sm text-[var(--text-muted)] underline decoration-[var(--border)] underline-offset-4 transition-colors hover:text-[var(--text)]"
-          >
-            {project.video.provider === "youtube" ? "Ver en YouTube" : "Ver en Vimeo"}
-          </Link>
+
+          {project.video.provider !== "local" ? (
+            <Link
+              href={project.video.url}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-4 inline-block text-sm text-[var(--text-muted)] underline decoration-[var(--border)] underline-offset-4 transition-colors hover:text-[var(--text)]"
+            >
+              {project.video.provider === "youtube" ? "Ver en YouTube" : "Ver en Vimeo"}
+            </Link>
+          ) : null}
         </div>
       ) : null}
 
