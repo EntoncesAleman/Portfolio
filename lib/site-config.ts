@@ -5,7 +5,7 @@ export const siteConfig = {
   intro:
     "Productora ejecutiva y project manager con más de 20 años de experiencia en proyectos audiovisuales, digitales y de comunicación.",
   email: "mercedes@wyler.com.ar",
-  navigation: [{ label: "Contacto", href: "/contact" }],
+  navigation: [{ label: "Trabajos", href: "/#trabajos" }, { label: "Sobre mí", href: "/about" }, { label: "Contacto", href: "/contact" }],
   social: [
     { label: "Email", href: "mailto:mercedes@wyler.com.ar" },
     { label: "Instagram", href: "https://instagram.com" },

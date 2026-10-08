@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { RevealOnScroll } from "@/components/ui/RevealOnScroll";
-import { DecorativeBackground } from "@/components/projects/DecorativeBackground";
-import { VimeoEmbed } from "@/components/projects/VimeoEmbed";
-import { YouTubeEmbed } from "@/components/projects/YouTubeEmbed";
+import { ProjectPlayer } from "@/components/projects/ProjectPlayer";
 import type { Project } from "@/types/project";
 
 interface ProjectDetailProps {
@@ -14,7 +12,6 @@ interface ProjectDetailProps {
 
 export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
   const hasAdjacentNav = previous !== null || next !== null;
-  const isKidsShow = project.category === "Serie Infantil";
 
   const metaItems: { label: string; value: string }[] = [
     ...(project.client ? [{ label: "Cliente", value: project.client }] : []),
@@ -28,7 +25,6 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
   return (
     <article>
       <header className="relative mx-auto max-w-[1400px] px-6 pb-12 pt-16 md:px-10 md:pb-16 md:pt-24">
-        {isKidsShow ? <DecorativeBackground /> : null}
         <Link
           href="/"
           className="relative text-sm text-[var(--text-muted)] transition-colors hover:text-[var(--text)]"
@@ -62,7 +58,7 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
           src={project.heroImage.src}
           alt={project.heroImage.alt}
           fill
-          priority
+          preload
           sizes="100vw"
           className="object-cover"
         />
@@ -71,32 +67,7 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
       {project.video ? (
         <div className="mx-auto max-w-[1400px] px-6 py-16 md:px-10 md:py-24">
           <RevealOnScroll>
-            {project.video.provider === "youtube" ? (
-              <YouTubeEmbed
-                videoId={project.video.id ?? ""}
-                title={project.title}
-                aspectRatio={project.heroImage.aspectRatio}
-              />
-            ) : project.video.provider === "vimeo" ? (
-              <VimeoEmbed
-                videoId={project.video.id ?? ""}
-                hash={project.video.hash}
-                title={project.title}
-                aspectRatio={project.heroImage.aspectRatio}
-              />
-            ) : (
-              <div className="relative w-full overflow-hidden bg-black" style={{ aspectRatio: project.heroImage.aspectRatio }}>
-                <video
-                  src={project.video.url}
-                  title={project.title}
-                  className="absolute inset-0 h-full w-full object-cover"
-                  controls
-                  playsInline
-                  preload="metadata"
-                  poster={project.heroImage.src}
-                />
-              </div>
-            )}
+            <ProjectPlayer project={project} />
           </RevealOnScroll>
 
           {project.video.provider !== "local" ? (
@@ -124,9 +95,8 @@ export function ProjectDetail({ project, previous, next }: ProjectDetailProps) {
                   <video
                     src={item.src}
                     className="h-full w-full object-cover"
-                    autoPlay
-                    muted
-                    loop
+                    controls
+                    preload="none"
                     playsInline
                     aria-label={item.alt}
                   />

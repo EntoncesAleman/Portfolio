@@ -19,6 +19,7 @@ export function VimeoEmbed({ videoId, hash, title, aspectRatio }: VimeoEmbedProp
         className="absolute inset-0 h-full w-full"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
         loading="lazy"
       />
     </div>
